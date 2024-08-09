@@ -1,0 +1,37 @@
+.body{
+  background-color: black;
+}
+
+.application{
+  margin-top: 200px;
+  margin: 0 auto;
+background-color: white;
+max-width: 700px;
+padding: 50px;
+border-radius: 8px;
+  }
+ button{
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+ }
+.buttons{
+  text-align: center;
+}
+ #rock{
+font-size: 45px;
+border-radius: 4px;
+background-color:rgb(236, 74, 74);
+ }
+
+ #paper{
+  font-size: 45px;
+  border-radius: 4px;
+  background-color: rgb(28, 128, 28);
+ }
+ #scissors{
+  font-size: 45px;
+  border-radius: 4px;
+background-color: rgb(65, 65, 243);
+ }
