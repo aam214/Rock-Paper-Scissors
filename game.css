@@ -1,10 +1,12 @@
 .body{
   background-color: black;
 }
-
-.application{
+.container{
   margin-top: 200px;
-  margin: 0 auto;
+}
+.application{
+
+margin: 0 auto;
 background-color: white;
 max-width: 700px;
 padding: 50px;
