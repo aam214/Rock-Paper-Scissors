@@ -21,7 +21,7 @@ return "It's a tie!";
 (userPick === 'scissors' && computerPick === 'paper') ||
 (userPick === 'paper' && computerPick === 'rock')
 ){
-return "You win! " + userPick + " beats " + computerPick;
+return "You won! " + userPick + " beats " + computerPick;
 } else{
 return "You lose! " + computerPick + " beats " + userPick;
 }
