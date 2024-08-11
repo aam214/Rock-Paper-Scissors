@@ -1,9 +1,12 @@
 const buttons = document.querySelectorAll("button");
+const result = document.getElementById("result");
+
 
 buttons.forEach((button) => {
 button.addEventListener('click', () => {
- const play = gameRound(button.id, computerChoice());
- console.log(play);
+ const playGame = gameRound(button.id, computerChoice());
+
+ result.textContent = playGame;
   });
 });
 
