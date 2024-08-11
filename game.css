@@ -37,3 +37,13 @@ background-color:rgb(236, 74, 74);
   border-radius: 4px;
 background-color: rgb(65, 65, 243);
  }
+ #scores{
+  font-size: 22px;
+  font-weight: 500;
+ }
+ #computer-score{
+  color: rgb(28, 128, 28);
+ }
+ #user-score{
+  color: rgb(65, 65, 243);
+ }
