@@ -8,7 +8,7 @@ let computerScore = 0;
 
 buttons.forEach((button) => {
 button.addEventListener('click', () => {
- const playGame = gameRound(button.id, computerChoice());
+ let playGame = gameRound(button.id, computerChoice());
 
  result.textContent = playGame;
   });
